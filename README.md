@@ -1,5 +1,5 @@
-# thotogelo.github.io
-
+<div style="background-color: black; color: white; padding: 20px; height: 100vh;">
+   # thotogelo.github.io
 THOTOGELO RAMOTHOLE
 
 Personal Portfolio.
@@ -12,9 +12,14 @@ Mediocre software engineer.
 Chess
 https://www.chess.com/member/thotogelx
 
-Spotify
-https://open.spotify.com/user/v3bl20w07ku0jgpxrrfnqztpq
+Music
+https://youtu.be/bOE7E-DOdMQ
 
 
 
-![WhatsApp Image 2025-02-17 at 00 32 00_98ec3fda](https://github.com/user-attachments/assets/ee12191e-1a3a-4fc7-bdd6-8c70f9306dd2)
+
+
+
+![WhatsApp Image 2025-02-17 at 00 53 50_8434102e](https://github.com/user-attachments/assets/4538d404-1ac0-4fda-93d9-fb709ff5f4bb)
+
+</div>
