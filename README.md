@@ -1,7 +1,6 @@
    # thotogelo.github.io
 THOTOGELO RAMOTHOLE
 
-Personal Portfolio.
 
 Mediocre software engineer.
 
