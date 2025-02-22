@@ -9,7 +9,7 @@
 - **Posts**
   - Java Code
   - Linux
-  - Scripts
+  - **[Scripts](https://gist.github.com/Thotogelo)**
   - Technology
   - **[Code](https://github.com/Thotogelo)**
   - **[Chess](https://www.chess.com/member/thotogelx)**
