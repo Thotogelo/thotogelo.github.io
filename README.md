@@ -1,7 +1,6 @@
 # TT's Blog Posts
 
-**Fancy to nontech people, mediocre to the techies…**
-**Work in progress man, im a backend engineer, keep your opinion**
+**🎶Bigg faced buddha, I get my peace from within…🎶**
 
 ---
 
@@ -15,7 +14,6 @@
   - **[Chess](https://www.chess.com/member/thotogelx)**
   - **[Music](https://youtu.be/bOE7E-DOdMQ)**
 - **[My Twitter](https://x.com/thotogelx)**
-- **[My LinkedIn]([#])**
 
 ---
 
