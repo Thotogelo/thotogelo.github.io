@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scripts
-permalink: /scripts/
+permalink: https://gist.github.com/Thotogelo
 ---
 
 
