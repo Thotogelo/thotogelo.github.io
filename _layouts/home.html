@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="home-shell">
+  <section class="welcome-panel" aria-labelledby="welcome-title">
+    <div class="welcome-copy">
+      <p class="eyebrow"><span class="status-dot"></span> Notes from the in-between</p>
+      <h1 id="welcome-title">A little room<br>to <em>think out loud.</em></h1>
+      <p class="welcome-description">{{ site.description | strip | escape }}</p>
+      <a class="welcome-link" href="#writing">Find something to read <span aria-hidden="true">↘</span></a>
+    </div>
+    <div class="welcome-art" aria-hidden="true">
+      <span class="art-orbit orbit-one"></span>
+      <span class="art-orbit orbit-two"></span>
+      <span class="art-sun"></span>
+      <span class="art-caption">A notebook<br>for the curious</span>
+      <span class="art-index">01<br>—<br>∞</span>
+    </div>
+    <span class="panel-note" aria-hidden="true">EST. 2025&nbsp; · &nbsp;JOHANNESBURG</span>
+  </section>
+
+  <section class="writing-section" id="writing" aria-labelledby="writing-title">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">The notebook</p>
+        <h2 id="writing-title">Latest writing<span class="heading-period">.</span></h2>
+      </div>
+      <span class="entry-count">{{ site.posts.size }} {% if site.posts.size == 1 %}entry{% else %}entries{% endif %}</span>
+    </div>
+
+    {% if site.posts.size > 0 %}
+      <ol class="journal-list">
+        {% for post in site.posts %}
+          <li class="journal-entry">
+            <a class="journal-link" href="{{ post.url | relative_url }}">
+              <span class="journal-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
+              <span class="journal-main">
+                <span class="journal-title">{{ post.title | escape }}</span>
+                {% if post.excerpt %}<span class="journal-excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 145 | escape }}</span>{% endif %}
+              </span>
+              <span class="journal-arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    {% else %}
+      <p class="empty-note">The notebook is open. Check back soon.</p>
+    {% endif %}
+  </section>
+
+  <aside class="closing-note">
+    <span class="closing-mark" aria-hidden="true">✳</span>
+    <p>Good ideas start with a little curiosity.</p>
+    <a href="{{ '/about/' | relative_url }}">A little about me <span aria-hidden="true">→</span></a>
+  </aside>
+</div>
