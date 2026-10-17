@@ -105,6 +105,7 @@ a:hover { color: var(--orange); text-decoration-color: currentColor; }
 
 .site-header .wrapper { display: flex; align-items: center; justify-content: space-between; min-height: 78px; }
 .site-title { color: var(--ink); font-family: var(--serif); font-size: 24px; font-weight: 700; letter-spacing: -.045em; }
+.site-title, .site-title:visited { color: var(--ink); }
 .site-title:hover { color: var(--green); text-decoration: none; }
 .site-nav { line-height: 1.5; }
 .site-nav .page-link { margin-left: 25px; color: var(--nav); font-size: 12px; font-weight: 650; letter-spacing: .09em; text-transform: uppercase; }
