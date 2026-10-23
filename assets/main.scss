@@ -197,6 +197,9 @@ a:hover { color: var(--orange); text-decoration-color: currentColor; }
 .post-content, .page-content .post-content { font-size: 16px; line-height: 1.85; }
 .post-content h2, .page-content h2 { margin-top: 1.8em; font-family: var(--serif); font-size: 30px; font-weight: 400; letter-spacing: -.035em; }
 .post-content img, .page-content img { border-radius: 3px; }
+.feel-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-items: start; }
+.feel-gallery figure { display: grid; aspect-ratio: 4 / 3; place-items: center; overflow: hidden; margin: 0; padding: 12px; border: 1px solid var(--line); border-radius: 5px; background: var(--card); }
+.feel-gallery img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .post-content blockquote { border-left-color: var(--orange); color: var(--soft-2); font-family: var(--serif); font-style: italic; }
 .post-content pre, .post-content code { border-color: var(--line); background-color: var(--code); color: var(--ink); }
 
@@ -220,6 +223,7 @@ hr { border-color: var(--line); }
 @media (max-width: 700px) {
   .wrapper { padding-right: 22px; padding-left: 22px; }
   .page-content { padding-top: 32px; padding-bottom: 48px; }
+  .feel-gallery { grid-template-columns: 1fr; gap: 16px; }
   .welcome-panel { grid-template-columns: 1fr; }
   .welcome-copy { padding: 44px 28px 27px; }
   .welcome-copy h1 { font-size: clamp(47px, 12vw, 65px); }
