@@ -11,4 +11,12 @@ permalink: /feel/
 	<figure>
 		<img src="{{ '/assets/Dune_Quote_Thinking_Machine.png' | relative_url }}" alt="Quote from Dune about machines and human thinking" loading="lazy" decoding="async">
 	</figure>
+	</figure>
+	<figure>
+		<img src="{{ '/assets/the_machines.jpg' | relative_url }}" alt="Quote about the machines" loading="lazy" decoding="async">
+	</figure>
+	</figure>
+	<figure>
+		<img src="{{ '/assets/Likeness_machine.jpg' | relative_url }}" alt="Likeness of a machine" loading="lazy" decoding="async">
+	</figure>
 </section>
