@@ -9,11 +9,9 @@ permalink: /feel/
 		<img src="https://github.com/user-attachments/assets/84727268-9409-48e4-a5dc-bd8ed89c8e8c" alt="Look, a machine" loading="lazy" decoding="async">
 	</figure>
 	<figure>
-		<img src="{{ '/assets/Dune_Quote_Thinking_Machine.png' | relative_url }}" alt="Quote from Dune about machines and human thinking" loading="lazy" decoding="async">
-	</figure>
 	</figure>
 	<figure>
-		<img src="{{ '/assets/the_machines.jpg' | relative_url }}" alt="Quote about the machines" loading="lazy" decoding="async">
+		<img src="{{ '/assets/the_machines.jpg' | relative_url }}" alt="Turned machine" loading="lazy" decoding="async">
 	</figure>
 	</figure>
 	<figure>
