@@ -14,4 +14,16 @@ permalink: /feel/
 	<figure>
 		<img src="{{ '/assets/Likeness_machine.jpg' | relative_url }}" alt="Likeness of a machine" loading="lazy" decoding="async">
 	</figure>
+	<figure>
+		<img src="{{ '/assets/Think_About_Code.jpg' | relative_url }}" alt="Think About Code" loading="lazy" decoding="async">
+	</figure>
+	<figure>
+		<img src="{{ '/assets/Cat_Warrior.jpg' | relative_url }}" alt="Cat Warrior" loading="lazy" decoding="async">
+	</figure>
+	<figure>
+		<img src="{{ '/assets/The_Puter.png' | relative_url }}" alt="The Com*Puter" loading="lazy" decoding="async">
+	</figure>
+	<figure>
+		<img src="{{ '/assets/2_Man_Machine.jpg' | relative_url }}" alt="2, man and a machine" loading="lazy" decoding="async">
+	</figure>
 </section>
